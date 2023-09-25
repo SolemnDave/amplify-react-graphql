@@ -1,0 +1,12 @@
+{
+  "resourceName": "howtocontentstorage",
+  "policyUUID": "af71629b",
+  "bucketName": "howtocontentstorage",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "READ"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}
