@@ -1,0 +1,55 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplifyee2e8bf4e5914-staging-195447-authRole",
+      "UnauthRoleArn": "arn:aws:iam::648303688058:role/amplify-amplifyee2e8bf4e5914-staging-195447-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::648303688058:role/amplify-amplifyee2e8bf4e5914-staging-195447-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-amplifyee2e8bf4e5914-staging-195447-deployment",
+      "UnauthRoleName": "amplify-amplifyee2e8bf4e5914-staging-195447-unauthRole",
+      "StackName": "amplify-amplifyee2e8bf4e5914-staging-195447",
+      "StackId": "arn:aws:cloudformation:us-east-1:648303688058:stack/amplify-amplifyee2e8bf4e5914-staging-195447/61e65890-5bdd-11ee-88e6-1241ff97aef7",
+      "AmplifyAppId": "d2672ejyu222v9"
+    }
+  },
+  "auth": {
+    "amplifyreactgraphqlf9558931": {
+      "customAuth": false,
+      "dependsOn": [],
+      "frontendAuthConfig": {
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "socialProviders": [],
+        "usernameAttributes": [],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito",
+      "output": {
+        "UserPoolId": "us-east-1_Rp5Ckwl1H",
+        "AppClientIDWeb": "7avrum6nbb8cut1s9jnbgvlb16",
+        "AppClientID": "20nvfmous8jdm9tp5j1cac5qg4",
+        "IdentityPoolId": "us-east-1:05f77de3-7a8d-48a6-8f94-1b62ba76d5ac",
+        "UserPoolArn": "arn:aws:cognito-idp:us-east-1:648303688058:userpool/us-east-1_Rp5Ckwl1H",
+        "IdentityPoolName": "amplifyreactgraphqlf9558931_identitypool_f9558931__staging",
+        "UserPoolName": "amplifyreactgraphqlf9558931_userpool_f9558931"
+      },
+      "lastPushTimeStamp": "2023-09-25T20:42:03.770Z",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplifyee2e8bf4e5914-staging-195447-deployment/amplify-cfn-templates/auth/amplifyreactgraphqlf9558931-cloudformation-template.json",
+        "logicalId": "authamplifyreactgraphqlf9558931"
+      }
+    }
+  }
+}
